@@ -7,10 +7,10 @@ requires-python = ">=3.9, <4.0"
 
 [tool.nonebot]
 adapters = [
-    { name = "OneBot V12", module_name = "nonebot.adapters.onebot.v12" },
+    { name = "OneBot V11", module_name = "nonebot.adapters.onebot.v11" },
     { name = "Telegram", module_name = "nonebot.adapters.telegram" },
     { name = "QQ", module_name = "nonebot.adapters.qq" },
-    { name = "Console", module_name = "nonebot.adapters.console" }
+    #    { name = "Console", module_name = "nonebot.adapters.console" },
 ]
 plugins = []
 plugin_dirs = ["src/plugins"]
